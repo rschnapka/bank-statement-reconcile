@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: OpenERP Server 7.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-01-21 11:55+0000\n"
-"PO-Revision-Date: 2015-01-18 15:19+0100\n"
+"PO-Revision-Date: 2015-04-28 19:10+0100\n"
 "Last-Translator: Rudolf Schnapka <rs@techno-flex.de>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -29,7 +29,7 @@ msgstr "Konto"
 #. module: account_advanced_reconcile_transaction_ref
 #: view:account.easy.reconcile:0
 msgid "Advanced. Partner and Transaction Ref"
-msgstr "Weiterführend. Partner und Überweisungsbezug"
+msgstr "Weiterführend. Partner und Vorgangsreferenz"
 
 #. module: account_advanced_reconcile_transaction_ref
 #: view:account.easy.reconcile:0
@@ -50,7 +50,7 @@ msgstr "easy.reconcile.advanced.transaction_ref"
 #. module: account_advanced_reconcile_transaction_ref
 #: field:account.move.line,transaction_ref:0
 msgid "Transaction Ref."
-msgstr "Überweisungszweck"
+msgstr "Vorgangsreferenz"
 
 #. module: account_advanced_reconcile_transaction_ref
 #: field:easy.reconcile.advanced.transaction_ref,journal_id:0
@@ -60,7 +60,7 @@ msgstr "Journal"
 #. module: account_advanced_reconcile_transaction_ref
 #: field:easy.reconcile.advanced.transaction_ref,account_profit_id:0
 msgid "Account Profit"
-msgstr "Erfolgskonto"
+msgstr "Ertragskonto"
 
 #. module: account_advanced_reconcile_transaction_ref
 #: model:ir.model,name:account_advanced_reconcile_transaction_ref.model_account_bank_statement

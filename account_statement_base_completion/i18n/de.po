@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: OpenERP Server 7.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-01-21 11:57+0000\n"
-"PO-Revision-Date: 2015-01-18 14:25+0100\n"
+"PO-Revision-Date: 2015-04-28 19:17+0100\n"
 "Last-Translator: Rudolf Schnapka <rs@techno-flex.de>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -101,7 +101,7 @@ msgstr "Zusatzinfos der Bank"
 #. module: account_statement_base_completion
 #: view:account.statement.profile:0
 msgid "Auto-Completion Rules"
-msgstr "Auto-Vervollständigungsregeln"
+msgstr "Auto-Ergänzungsregeln"
 
 #. module: account_statement_base_completion
 #: view:account.bank.statement:0
@@ -113,12 +113,12 @@ msgstr "Auskunft zum Import"
 #: code:addons/account_statement_base_completion/statement.py:179
 #, python-format
 msgid "Invalid invoice type for completion: %"
-msgstr "Unzulässige Rechnungsart für Vervollständigung: %s"
+msgstr "Unzulässige Rechnungsart zur Ausführung: %s"
 
 #. module: account_statement_base_completion
 #: field:account.statement.completion.rule,name:0
 msgid "Name"
-msgstr "Name"
+msgstr "Bezeichner"
 
 #. module: account_statement_base_completion
 #: model:ir.model,name:account_statement_base_completion.model_account_statement_profile
@@ -128,7 +128,7 @@ msgstr "Auszugs-Profil"
 #. module: account_statement_base_completion
 #: view:account.bank.statement:0
 msgid "Auto Completion"
-msgstr "Auto-Vervollständigung"
+msgstr "Auto-Ergänzung"
 
 #. module: account_statement_base_completion
 #: view:account.statement.completion.rule:0
@@ -167,7 +167,7 @@ msgstr "Systemfehler"
 #. module: account_statement_base_completion
 #: field:account.bank.statement.line,already_completed:0
 msgid "Auto-Completed"
-msgstr "Auto-Vervollständigt"
+msgstr "Auto-Ergänzt"
 
 #. module: account_statement_base_completion
 #: code:addons/account_statement_base_completion/statement.py:448
@@ -199,7 +199,7 @@ msgstr "Niedrig bedeutet zuerst verarbeitet."
 #. module: account_statement_base_completion
 #: field:res.partner,bank_statement_label:0
 msgid "Bank Statement Label"
-msgstr "Auszugs-Bezeichnung"
+msgstr "Auszugs-Kennung"
 
 #. module: account_statement_base_completion
 #: help:account.bank.statement.line,already_completed:0
@@ -231,4 +231,4 @@ msgstr "Partner"
 #. module: account_statement_base_completion
 #: view:account.bank.statement:0
 msgid "Completion Logs"
-msgstr "Vervollständigung-Protokolle"
+msgstr "Vervollständigungsprotokolle"

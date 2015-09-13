@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: OpenERP Server 7.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-01-21 11:55+0000\n"
-"PO-Revision-Date: 2015-01-18 15:16+0100\n"
+"PO-Revision-Date: 2015-04-28 19:06+0100\n"
 "Last-Translator: Rudolf Schnapka <rs@techno-flex.de>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -125,7 +125,7 @@ msgid ""
 msgstr ""
 "Eine Soll- mit eine Haben-Position abstimmen. Teilausgleich nicht zulassen. "
 "Die Beträge der Positionen (zusammen mit Differenzausgleich) müssen gleich "
-"sein und die gleiche Referenz muss ausgeglichen werden."
+"sein und die Referenz muss identisch sein."
 
 #. module: account_easy_reconcile
 #: model:ir.actions.act_window,name:account_easy_reconcile.act_easy_reconcile_to_history
@@ -135,7 +135,7 @@ msgstr "Detaillierter Verlauf"
 #. module: account_easy_reconcile
 #: view:account.easy.reconcile:0
 msgid "Display items reconciled on the last run"
-msgstr "Zeige Posten an, die im letzten Lauf ausgeglichen wurden"
+msgstr "Zeige im letzten Lauf ausgeglichene Posten an"
 
 #. module: account_easy_reconcile
 #: field:account.easy.reconcile.method,name:0
@@ -198,7 +198,7 @@ msgstr "Datum"
 #. module: account_easy_reconcile
 #: field:account.easy.reconcile,last_history:0
 msgid "Last History"
-msgstr "Verlauf"
+msgstr "Letzter Verlauf"
 
 #. module: account_easy_reconcile
 #: view:account.easy.reconcile:0
@@ -250,7 +250,7 @@ msgstr "Aufgabe"
 #. module: account_easy_reconcile
 #: field:account.easy.reconcile,name:0
 msgid "Name"
-msgstr "Name"
+msgstr "Bezeichner"
 
 #. module: account_easy_reconcile
 #: view:account.easy.reconcile:0
@@ -286,7 +286,7 @@ msgid ""
 msgstr ""
 "Eine Soll- mit eine Haben-Position abstimmen. Teilausgleich nicht zulassen. "
 "Die Beträge der Positionen (mit Differenzausgleich) müssen gleich sein und "
-"der gleiche Partner muss ausgeglichen werden."
+"der Partner muss identisch sein."
 
 #. module: account_easy_reconcile
 #: field:easy.reconcile.history,easy_reconcile_id:0
@@ -324,7 +324,7 @@ msgid ""
 msgstr ""
 "Eine Soll- mit eine Haben-Position abstimmen. Teilausgleich nicht zulassen. "
 "Die Beträge der Positionen (mit Differenzausgleich) müssen gleich sein und "
-"der gleiche Name muss ausgeglichen werden."
+"der Bezeichner muss identisch sein."
 
 #. module: account_easy_reconcile
 #: field:account.easy.reconcile.method,account_lost_id:0
@@ -335,7 +335,7 @@ msgstr ""
 #: field:easy.reconcile.simple.partner,account_lost_id:0
 #: field:easy.reconcile.simple.reference,account_lost_id:0
 msgid "Account Lost"
-msgstr "Konto verloren"
+msgstr "Konto für Verluste"
 
 #. module: account_easy_reconcile
 #: view:easy.reconcile.history:0
